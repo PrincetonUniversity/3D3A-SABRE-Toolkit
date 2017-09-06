@@ -1,0 +1,40 @@
+# SOFA/AmbiX Binaural Rendering (SABRE) Toolkit
+The SABRE toolkit is a collection of MATLAB functions that allows the user to create
+custom binaural decoder presets for Matthias Kronlachner’s ambiX binaural plug-in. The
+toolkit allows the user to import SOFA-formatted HRTFs and generate a corresponding binaural decoder configuration (.config) file. The toolkit requires the SOFA API to
+extract the HRTF data.
+
+
+=== Primary Uses ===
+A) Creating an ambiX binaural decoder using all measured HRTFs:
+	1. Load HRTFs and corresponding measurement positions
+	2. Generate a basic decoder for the measurement positions
+	3. Export the combined ambiX .config file with decoder and HRTFs
+
+B) Creating an ambiX binaural decoder for a desired grid of loudspeaker positions:
+	1. Load HRTFs and corresponding measurement positions
+	2. Specify the desired loudspeaker positions
+	3. Extract/interpolate HRTFs for the loudspeaker positions
+	4. Generate a basic (or quadrature) decoder for the loudspeaker positions
+	5. Export the combined ambiX .config file with decoder and HRTFs
+
+C) Adding HRTFs to an existing ambiX binaural decoder:
+	1. Load HRTFs and corresponding measurement positions
+	2. Specify the loudspeaker positions for the existing decoder
+	3. Extract/interpolate HRTFs for the loudspeaker positions
+	4. Import the existing ambiX .config file and decoder
+	5. Export the combined ambiX .config file with decoder and HRTFs
+
+
+=== Related Software ===
+Matthias Kronlachner’s ambiX Plug-ins
+http://www.matthiaskronlachner.com/?p=2015
+
+SOFA API for MATLAB/Octave
+https://sourceforge.net/projects/sofacoustics/
+
+Aaron Heller’s Ambisonic Decoder Toolbox
+https://bitbucket.org/ambidecodertoolbox/adt.git
+
+MATLAB by MathWorks
+https://www.mathworks.com/products/matlab.html

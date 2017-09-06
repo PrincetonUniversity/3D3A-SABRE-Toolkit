@@ -1,0 +1,3 @@
+1. Add manual
+2. Build in HRTF options when reading config file:
+	e.g. <gain factor> <delay in ms> <swap left right channel>
