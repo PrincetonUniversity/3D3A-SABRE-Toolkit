@@ -1,7 +1,8 @@
 # SOFA/AmbiX Binaural Rendering (SABRE) Toolkit
 The SABRE toolkit is a collection of MATLAB functions that allows the user to create
 custom binaural decoder presets for Matthias Kronlachner’s ambiX binaural plug-in. The
-toolkit allows the user to import SOFA-formatted HRTFs and generate a corresponding binaural decoder configuration (.config) file. The toolkit requires the SOFA API to
+toolkit allows the user to import SOFA-formatted HRTFs and generate a corresponding
+binaural decoder configuration (.config) file. The toolkit requires the SOFA API to
 extract the HRTF data.
 
 
