@@ -1,3 +1,6 @@
-1. Add URL to AES143 e-Brief citation
-2. Build in HRTF options when reading config file:
+1. Build in HRTF options when reading config file:
 	e.g. <gain factor> <delay in ms> <swap left right channel>
+2. Add more EQ types: +/-30 degrees, load existing
+3. Add inverse filter design options: different regularization type, parameters
+4. Add to manual: how to load decoders in the ambiX plug-in
+5. Add to manual: getting started
