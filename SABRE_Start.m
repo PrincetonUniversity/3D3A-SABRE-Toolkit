@@ -40,4 +40,6 @@ addpath(fullfile(SABREDir, 'dsp'))
 addpath(fullfile(SABREDir, 'grids'))
 addpath(fullfile(SABREDir, 'hrtfs'))
 
+disp('SABRE Toolkit found and initialized.')
+
 end
